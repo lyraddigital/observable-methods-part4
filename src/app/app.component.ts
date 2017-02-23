@@ -290,7 +290,6 @@ export class AppComponent implements OnInit {
                 });
       */
 
-      /*
       this.showPartition = true;
 
       var intervalObs = Observable.interval(1000).take(20);
@@ -300,6 +299,5 @@ export class AppComponent implements OnInit {
 
       partitionOne.subscribe(value => this.partitionOneResult += `${value} `);
       partitionTwo.subscribe(value => this.partitionTwoResult += `${value} `);
-      */
   }
 }
